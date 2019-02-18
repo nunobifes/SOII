@@ -15,10 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ex2.c">
+    <ClCompile Include="DLL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ex1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ex2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ex3.cpp">
@@ -34,9 +37,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ex7.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DLL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ex9.cpp">
