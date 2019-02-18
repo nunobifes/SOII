@@ -1,0 +1,4 @@
+﻿  ex9.c
+c:\users\nunob\onedrive - isec\escola\2018-19\2º semestre\so2\fichas\ficha1\ficha1\dll.h(20): error C2059: syntax error: 'string'
+c:\users\nunob\onedrive - isec\escola\2018-19\2º semestre\so2\fichas\ficha1\ficha1\ex9.c(12): error C2065: 'nDLL': undeclared identifier
+c:\users\nunob\onedrive - isec\escola\2018-19\2º semestre\so2\fichas\ficha1\ficha1\ex9.c(15): warning C4013: 'UmaString' undefined; assuming extern returning int
