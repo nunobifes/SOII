@@ -37,8 +37,8 @@ int _tmain(int argc, TCHAR *argv[])
 			RegSetValueEx(chave, TEXT("Versao"), 0, REG_DWORD, (LPBYTE)&versao, sizeof(DWORD));
 			_tprintf(TEXT("Valores Autor e Versão guardados.\n"));
 			// Pedir lista de palavras
-			_tprintf(_T("Insira uma lista de palavras: "));
-			char continua = 1;
+			_tprintf(_T("Insira uma lista de 10 palavras: "));
+			int continua = 10;
 			TCHAR lis[TAM];
 			do
 			{
@@ -53,9 +53,9 @@ int _tmain(int argc, TCHAR *argv[])
 				{
 					_stprintf_s(stra, TAM, TEXT("%s"), lis);
 				}
-				
+				continua--;
 					
-			} while (_tcsicmp(_T("fim"), lis));
+			} while (continua != 0);
 			RegSetValueEx(chave, TEXT("Lista"), 0, REG_SZ, (LPBYTE)stra, _tcsclen(stra) * sizeof(TCHAR));
 		}
 		// se a chave foi aberta, ler os valores lá guardados
