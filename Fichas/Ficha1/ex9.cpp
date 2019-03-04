@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include "Ficha1_Ex8_DLL.h"
 
-int _tmain(int argc, TCHAR *argv[])
+int _tmain9(int argc, TCHAR *argv[])
 {
 #ifdef UNICODE
 	_setmode(_fileno(stdin), _O_WTEXT);

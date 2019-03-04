@@ -121,6 +121,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ex1.c" />
+    <ClCompile Include="ex11.cpp" />
     <ClCompile Include="ex2.c" />
     <ClCompile Include="ex3.cpp" />
     <ClCompile Include="ex4.c" />
