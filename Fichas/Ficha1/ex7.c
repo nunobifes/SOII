@@ -5,7 +5,7 @@
 #include <stdio.h>
 #define TAM 200
 
-int _tmain(int argc, TCHAR *argv[])
+int _tmain7(int argc, TCHAR *argv[])
 {
 	HKEY chave;
 	DWORD queAconteceu, versao, tamanho;

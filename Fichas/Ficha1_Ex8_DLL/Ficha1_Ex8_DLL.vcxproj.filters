@@ -7,7 +7,7 @@
     </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
@@ -15,28 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ex1.c">
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ficha1_Ex8_DLL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ex2.c">
+    <ClCompile Include="Ficha1_Ex8_DLL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ex3.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ex4.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ex5.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ex6.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ex7.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ex9.cpp">
+    <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

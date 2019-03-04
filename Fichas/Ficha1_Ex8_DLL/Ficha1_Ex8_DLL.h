@@ -1,3 +1,4 @@
+#pragma once
 //DLL.h
 // o bloco ifdef seguinte é o modo standard de criar macros que tornam a exportação de
 // funções e variáveis mais simples. Todos od ficheiros neste projeto DLL são
@@ -12,12 +13,14 @@
 #define TAM 256
 // Esta macro é definida pelo sistema caso estejamos na DLL( <DLL_IMP>_EXPORTS definida)
 // ou na app ( <DLL_IMP>_Exports não definida) onde DLL_IMP é o nome deste projeto
-#ifdef DLL_EXPORTS
+
+#ifdef FICHA1EX8DLL_EXPORTS  // --> atualizar em função do nome do projeto ( Proprieties -> c/c++ -> precompiler )
 #define DLL_IMP_API __declspec(dllexport)
 #else
 #define DLL_IMP_API __declspec(dllimport)
 #endif
-extern "C"
+
+extern "C"  // garantir compatibilidade entre cpp e c
 {
 	// Variável global da DLL
 	extern DLL_IMP_API int nDLL;
