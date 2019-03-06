@@ -3,7 +3,7 @@
 // properties -> set as startup project (tem que ficar o nome a BOLD)
 // properties -> C/C++ -> General -> Additional Include Directories -> adicionar path do projeto da DLL
 // properties -> Linker -> Input -> Additional Dependencies -> (Adicionar nome do .lib do projeto da DLL)
-// properties -> General -> Additional Library Directories -> (Adicionar $(OutDir) -> pasta para onde vai o output do build)
+// properties -> Linker -> General -> Additional Library Directories -> (Adicionar $(OutDir) -> pasta para onde vai o output do build)
 
 #include <windows.h>
 #include <tchar.h>
