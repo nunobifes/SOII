@@ -116,6 +116,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ex1.c" />
+    <ClCompile Include="ex2.c" />
+    <ClCompile Include="ex3.c" />
+    <ClCompile Include="ex5.c" />
+    <ClCompile Include="ex8.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
