@@ -66,6 +66,7 @@ int _tmain(int argc, LPTSTR argv[]) { //Sintaxe: programa N_threads
 			CloseHandle(hT[i]);
 	}
 	//Libertar arrays dinâmicos
+	CloseHandle(h);
 	free(arrayDados);
 	free(hT);
 	_tprintf(TEXT("[Thread Principal %d]Vou terminar..."), GetCurrentThreadId());
