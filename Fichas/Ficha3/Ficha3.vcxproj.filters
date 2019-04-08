@@ -21,5 +21,23 @@
     <ClCompile Include="ex3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ex4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ex5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ex7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ex8_cons.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ex8_prod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ex9.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

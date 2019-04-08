@@ -47,7 +47,7 @@
 //	hThread = (HANDLE *)malloc(N * sizeof(HANDLE));
 //	tId = (HANDLE *)malloc(N * sizeof(HANDLE));
 //
-//	h = CreateMutex(NULL, FALSE, "MUTEX");
+//	h = CreateSemaphore(NULL, 1, 1, "MUTEX");
 //
 //	if (h == NULL) {
 //		_tprintf(TEXT("Cannot Block with mutex... \n EXITING"));
@@ -89,6 +89,7 @@
 //	for (int i = 0; i < N; i++) {
 //		_tprintf(TEXT("Lancei uma thread com id %d\n"), tId[i]);
 //	}
+//
 //	WaitForMultipleObjects(N, hThread, TRUE, INFINITE);
 //
 //
@@ -108,7 +109,7 @@
 //		WaitForSingleObject(h, INFINITE);
 //		gotoxy(v->x, v->y);
 //		_tprintf(TEXT("Thread %5d"), i);
-//		ReleaseMutex(h);
+//		ReleaseSemaphore(h, 1, NULL);
 //	}
 //	return 0;
 //}
