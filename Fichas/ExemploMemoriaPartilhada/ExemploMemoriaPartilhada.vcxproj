@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{80AFB48B-6921-4FC2-BE2B-BCD9FE4D1D25}</ProjectGuid>
-    <RootNamespace>Ficha4</RootNamespace>
+    <ProjectGuid>{78D7D8A7-8A99-42B5-810A-86CF585A2BF5}</ProjectGuid>
+    <RootNamespace>ExemploMemoriaPartilhada</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -29,7 +29,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -123,9 +123,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ex1.c" />
-    <ClCompile Include="ex3_escritor.c" />
-    <ClCompile Include="ex3_leitor.c" />
+    <ClCompile Include="ex08_c.c" />
+    <ClCompile Include="ex08_p.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
