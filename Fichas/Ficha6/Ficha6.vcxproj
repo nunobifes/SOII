@@ -19,19 +19,20 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ex5_1.c" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Ficha6.rc" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\SO2_2019\IntGrafica\bitmap2.bmp" />
     <Image Include="icon1.ico" />
   </ItemGroup>
   <ItemGroup>
     <None Include="cursor1.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="exExemplo3.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
